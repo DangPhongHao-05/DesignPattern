@@ -1,6 +1,6 @@
 package Prototype;
 
-public class Person implements Cloneable{
+public class Person implements Prototype {
     private String name;
 
     Person(String name){

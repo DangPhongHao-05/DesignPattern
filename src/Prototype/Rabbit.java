@@ -1,6 +1,6 @@
 package Prototype;
 
-public class Rabbit implements Cloneable{
+public class Rabbit implements Prototype {
     private String rabbitType;
     private String color;
     private int age;

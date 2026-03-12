@@ -1,5 +1,5 @@
 package Prototype;
 
-public interface Cloneable <T>{
+public interface Prototype<T>{
     T clone();
 }
