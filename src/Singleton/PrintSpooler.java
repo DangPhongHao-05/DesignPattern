@@ -16,4 +16,8 @@ public class PrintSpooler {
         }
         return instance;
     }
+
+    public void print(String name){
+        System.out.println("printing: " + name);
+    }
 }
