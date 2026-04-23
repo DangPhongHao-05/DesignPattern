@@ -8,6 +8,7 @@ public class Client {
         //clone
         Rabbit rabbit2 = rabbit1.clone();
         rabbit2.getOwner().setName("Dang Phong Hao");
+        rabbit2.setColor("Blue");
 
         System.out.println("Rabbit 1: "+ rabbit1);
         System.out.println("Rabbit 2: " + rabbit2);

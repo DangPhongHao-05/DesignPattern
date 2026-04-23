@@ -33,4 +33,8 @@ public class Rabbit implements Prototype {
     public Person getOwner() {
         return owner;
     }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 }

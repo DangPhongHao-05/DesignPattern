@@ -2,9 +2,11 @@ package Adapter;
 
 public class UKCarPriceAdapter implements PriceCalculator{
     private UKCarPriceCalculator ukCalculator;
-    public UKCarPriceAdapter(double basePrice){
-        ukCalculator = new UKCarPriceCalculator(basePrice);
+
+    public UKCarPriceAdapter(UKCarPriceCalculator ukCalculator){
+        this.ukCalculator = ukCalculator;
     }
+
     @Override
     public double calculatorPrice() {
         return ukCalculator.getPrice();
