@@ -17,5 +17,12 @@ public class Client {
 
         System.out.println("\nSau khi cập nhật:");
         feed.showFeed();
+
+        // huy theo doi userA
+        userA.removeObserver(feed);
+        System.out.println("\n Sau khi hủy theo dõi");
+
+        userA.setStatus("Huyr theo dõi chưa?");
+        feed.showFeed();
     }
 }
